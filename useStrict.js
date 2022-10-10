@@ -16,3 +16,7 @@ const person = {
     return this.firstName + " " + this.lastName;
   }
 };
+
+
+let myFunction = (a, b) => a * b;
+
