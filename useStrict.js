@@ -1,11 +1,8 @@
-x = 3.14;    // This will not cause an error.
-myFunction();
-
 function myFunction() {
   "use strict";
   y = 3.14;  // This will cause an error (y is not defined).
 }
-
+myFunction()
 
 // this keyword
 const person = {
@@ -18,5 +15,6 @@ const person = {
 };
 
 
-let myFunction = (a, b) => a * b;
+let thisfunction = (a, b) => a * b;
 
+thisfunction()
